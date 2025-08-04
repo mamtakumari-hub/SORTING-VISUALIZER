@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  header {
+    background-color: #3b3a3a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+  #array_generate{
+    border-radius: 1rem;
+    color : blue;
+    padding : 1rem
+  }
+  nav {
+    background-color: #3b3a3a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav_heading{
+    font-size: xx-large;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .array-parameters {
+    display: flex;
+    justify-content: center;
+  }
+  .array-parameters >  div {
+    margin : 1rem;
+  }
+  .array-parameters > div > input{
+    margin : 1rem;
+  }
+
+  .header_right{
+    display: inline-block;
+    font-size: xxx-large;
+    padding: 3% 0%;
+  }
+ .algos button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius : 1rem;
+    outline: none;
+    padding: 1rem 1rem;
+    margin : 1rem 1rem;
+  }
+ .algos > button:hover {
+    background-color: #757373;
+    cursor: pointer;
+  }
+  .locked_button {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .locked_button:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .algobutton_selected {
+    background-color: white;
+    color: green;
+  }
+  .algobutton_selected:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  .algobutton_unselected:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  section {
+        display: flex;
+        justify-content:space-around;
+  }
+  @media screen and (max-width:600px) {
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #Array_Container{
+        align-self: flex-start;
+        width: 100% !important;
+      }
+  }  
+  .Complexity_Containers {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .Complexity_Containers .Pair_Definitions {
+    margin-top: 20%;
+  }
+  
+  .Complexity_Containers .Pair_Definitions p {
+    display: inline;
+  }
+  
+  .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+  }
+  
+   #Info_Cont1 {
+    padding: 20% 10%;
+  }
+  
+   #Info_Cont1 h3 {
+    text-decoration: underline;
+  }
+  
+   #Array_Container {
+    display: flex;
+    align-items: baseline;
+    width: 60%;
+    height: 70vh;
+  }
+  /* #Array_Container > div {
+      transition: height 0.08s ease-in-out;
+  } */
+  
+   #Info_Cont2 {
+    padding: 20% 10%;
+  }
+  
+   #Info_Cont2 h3 {
+    text-decoration: underline;
+  }
+  
+  .hide {
+    display: none;
+  }
+  .githubIcon{
+    height : 5rem;
+    width : 5rem;
+    margin-left: auto;
+    
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+  }
